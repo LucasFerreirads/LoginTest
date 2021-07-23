@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">LoginTest</string>
+    <string name="nome">Nome Completo</string>
+    <string name="email">Email@gmail.com</string>
+    <string name="telefone">92 9999-9999</string>
+    <string name="senha">******</string>
+</resources>

@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_margin="20dp"
+    tools:context=".LoginActivity">
+
+    <TextView
+        android:text="Digite seu email:"
+        android:textSize="18dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <EditText
+        android:id="@+id/editLoginEmail"
+        android:hint="@string/email"
+        android:paddingStart="10dp"
+        android:paddingEnd="10dp"
+        android:layout_marginTop="10dp"
+        android:maxHeight="50dp"
+        android:drawableStart="@drawable/base_icon_email"
+        android:drawablePadding="10dp"
+        android:background="@drawable/background_edit"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"/>
+
+    <TextView
+        android:text="Digite sua senha:"
+        android:textSize="18dp"
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <EditText
+        android:id="@+id/editLoginSenha"
+        android:hint="******"
+        android:paddingStart="10dp"
+        android:paddingEnd="10dp"
+        android:layout_marginTop="10dp"
+        android:inputType="textPassword"
+        android:maxHeight="50dp"
+        android:drawableStart="@drawable/base_icon_email"
+        android:drawablePadding="10dp"
+        android:background="@drawable/background_edit"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"/>
+
+    <TextView
+        android:id="@+id/textLoginEsqueci"
+        android:text="Esqueci a senha"
+        android:textSize="18dp"
+        android:textColor="@color/blue_background"
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:id="@+id/textLoginCadastrar"
+        android:text="Cadastro"
+        android:textSize="18dp"
+        android:textColor="@color/blue_background"
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:id="@+id/btnLoginEntrar"
+        android:layout_marginTop="30dp"
+        android:text="Entrar"
+        android:textColor="@drawable/base_text_button"
+        android:background="@drawable/background_button"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"/>
+</LinearLayout>
