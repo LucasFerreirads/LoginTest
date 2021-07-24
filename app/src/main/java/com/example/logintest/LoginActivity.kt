@@ -19,12 +19,14 @@ class LoginActivity : AppCompatActivity() {
 
         btnEntrar=findViewById(R.id.btnLoginEntrar)
         textLoginEsqueci=findViewById(R.id.textLoginEsqueci)
-        textLoginCadastrar=findViewById(R.id.textLoginCadastrar)
+        textLoginCadastrar=findViewById(R.id.MenuLoginRegister)
 
         btnEntrar.setOnClickListener {
+            finish()
             startActivity(Intent(this, MainActivity::class.java))
         }
         textLoginCadastrar.setOnClickListener {
+            finish()
             startActivity(Intent(this, RegistrationActivity::class.java))
         }
 
